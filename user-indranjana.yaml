@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: indranjana
+  annotations:
+    github.com/user-id: "214480286"
+spec:
+  profile:
+    displayName: Indranjana Chatterjee
+    email: indranjana@hyland.com
+  memberOf:
+    - hyland-employees
