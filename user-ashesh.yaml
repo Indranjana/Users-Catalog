@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: aschakraborty
+  annotations:
+    github.com/user-id: '53515474'
+spec:
+  profile:
+    displayName: Ashesh Chakraborty
+    email: ashesh.chakraborty@hyland.com
+    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+  memberOf: [CRMP_SQUAD]
