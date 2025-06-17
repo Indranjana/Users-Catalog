@@ -1,0 +1,11 @@
+# group-hyland-employees.yaml
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: hyland-employees
+  description: All Hyland employees
+spec:
+  type: team
+  # List of users in this team:
+  members:
+    - user:default/indranjana
