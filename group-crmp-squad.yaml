@@ -1,0 +1,10 @@
+# group-crmp-squad.yaml
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: CRMP_SQUAD
+  description: CRM Platform squad (including Ashesh)
+spec:
+  type: team
+  members:
+    - user:default/aschakraborty
