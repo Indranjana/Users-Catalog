@@ -1,10 +1,17 @@
-# group-crmp-squad.yaml
+# catalog/group-crmp-squad.yaml
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: CRMP_SQUAD
-  description: CRM Platform squad (including Ashesh)
+  description: CRM Platform Squad
 spec:
   type: team
+  profile:
+    displayName: CRMP Squad
+    email: crmp-squad@hyland.com
+    picture: https://example.com/groups/crmp-squad.png
+  parent: hyland-employees
+  children: []
   members:
     - user:default/aschakraborty
+
