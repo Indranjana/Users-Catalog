@@ -1,4 +1,4 @@
-# group-hyland-employees.yaml
+# catalog/group-hyland-employees.yaml
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -6,6 +6,11 @@ metadata:
   description: All Hyland employees
 spec:
   type: team
-  # List of users in this team:
+  profile:
+    displayName: Hyland Employees
+    email: hyland-employees@hyland.com
+    picture: https://example.com/groups/hyland-employees.png
+  parent: hyland
+  children: []
   members:
     - user:default/indranjana
