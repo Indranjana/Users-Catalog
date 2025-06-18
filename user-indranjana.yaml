@@ -3,10 +3,11 @@ kind: User
 metadata:
   name: indranjana
   annotations:
-    github.com/user-id: "214480286"
+    github.com/user-id: " "
 spec:
   profile:
     displayName: Indranjana Chatterjee
     email: Indranjana.Chatterjee@hyland.com
   memberOf:
     - hyland-employees
+    - Admin
