@@ -1,1 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: skunduhy
+  annotations:
+    github.com/user-id: '167053820'
+spec:
+  profile:
+    displayName: Supriya Kundu
+    email: supriya.kundu@hyland.com
+    picture: https://avatars.githubusercontent.com/u/167053820?v=4
+  memberOf:
+    - hyland-employees
+    - Admin
+    - CRMP_SQUAD
 
