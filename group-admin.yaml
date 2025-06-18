@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Admin
+  description: Administrators Group
+spec:
+  type: team
+  profile:
+    displayName: Admin
+    email: admin@hyland.com
+    picture: https://example.com/groups/admin.png
+  parent: hyland-employees
+  children: []
+  members:
+    - user:default/indranjana
