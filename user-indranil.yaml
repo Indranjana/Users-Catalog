@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: indranilmaitihyland
+  annotations:
+    github.com/user-id: "167085712"
+spec:
+  profile:
+    displayName: Indranil Maiti Hyland
+    email: ""
+    picture: https://avatars.githubusercontent.com/u/167085712?v=4
+  memberOf:
+    - CRMP_SQUAD
