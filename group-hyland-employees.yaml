@@ -5,7 +5,6 @@ metadata:
   description: All Hyland employees
   annotations:
     github.com/project-slug: HylandExperience/hyland-developers-portal
-    github.com/actions-workflow-path: .github/workflows
     jira.atlassian.com/project-key: FCCSEU
 spec:
   type: team
