@@ -6,6 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: HylandExperience/hyland-developers-portal
     jira/project-key: FCCSEU
+    jira/dashboard-url: https://hyland.atlassian.net/jira/software/c/projects/FCCSEU/summary
 spec:
   type: team
   profile:
