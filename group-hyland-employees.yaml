@@ -7,8 +7,8 @@ metadata:
     github.com/project-slug: HylandExperience/hyland-developers-portal
 
     # Use the plugin’s fully‑qualified annotation keys:
-    jira.atlassian.com/project-key: FCCSEU
-    jira.atlassian.com/dashboard-url: https://hyland.atlassian.net/jira/software/c/projects/FCCSEU/summary
+    jira.atlassian.net/project-key: FCCSEU
+    jira.atlassian.net/dashboard-url: https://hyland.atlassian.net/jira/software/c/projects/FCCSEU/summary
 
 spec:
   type: team
