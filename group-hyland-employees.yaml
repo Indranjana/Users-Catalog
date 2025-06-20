@@ -5,7 +5,7 @@ metadata:
   description: All Hyland employees
   annotations:
     github.com/project-slug: HylandExperience/hyland-developers-portal
-    backstage.io/techdocs-ref : dir:.
+    backstage.io/techdocs-ref : dir:docs
     # Use the plugin’s fully‑qualified annotation keys:
     jira.atlassian.net/project-key: FCCSEU
     jira.hyland.atlassian.net/dashboard-url: https://hyland.atlassian.net/jira/software/c/projects/FCCSEU/summary
