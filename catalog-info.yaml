@@ -1,0 +1,26 @@
+# catalog-info-group.yaml
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: hyland-employees
+  description: All Hyland employees
+
+  # TechDocs will look in the 'docs/' folder at the repo root:
+  annotations:
+    # point at your Git repository’s docs directory
+    backstage.io/techdocs-ref: dir:.
+
+    # your existing integrations, JIRA, GitHub‑slug, etc.
+    github.com/project-slug: HylandExperience/hyland-developers-portal
+    jira.atlassian.net/project-key: FCCSEU
+    jira.hyland.atlassian.net/dashboard-url: https://hyland.atlassian.net/jira/software/c/projects/FCCSEU/summary
+
+spec:
+  type: team
+  parent: default/hyland              # or just 'hyland' if that's how your parent group is named
+  profile:
+    displayName: Hyland Employees
+    email: hyland-employees@hyland.com
+    picture: https://example.com/groups/hyland-employees.png
+  members:
+    - user:default/indranjana
