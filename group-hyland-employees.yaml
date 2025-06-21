@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Group
 metadata:
   name: hyland-employees
   description: All Hyland employees
@@ -11,7 +11,7 @@ metadata:
     jira.hyland.atlassian.net/dashboard-url: https://hyland.atlassian.net/jira/software/c/projects/FCCSEU/summary
 
 spec:
-  type: service
+  type: team
   profile:
     displayName: Hyland Employees
     email: hyland-employees@hyland.com
