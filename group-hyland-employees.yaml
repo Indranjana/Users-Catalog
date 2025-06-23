@@ -4,7 +4,7 @@ metadata:
   name: hyland-employees
   description: All Hyland employees
   annotations:
-    github.com/project-slug: HylandExperience/fcc-seu-orchestrator
+    github.com/project-slug: HylandExperience/hyland-developers-portal
     backstage.io/techdocs-ref : dir:.
     # Use the plugin’s fully‑qualified annotation keys:
     jira.atlassian.net/project-key: FCCSEU
