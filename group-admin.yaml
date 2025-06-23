@@ -5,7 +5,7 @@ metadata:
   description: Administrators Group
   annotations:
     github.com/project-slug: Indranjana/Workflows
-    backstage.io/techdocs-ref : dir:.
+    backstage.io/techdocs-ref: dir:.
 
 spec:
   type: team
@@ -16,4 +16,4 @@ spec:
   parent: hyland-employees
   children: []
   members:
-    - user: default/indranjana
+    - default/indranjana
