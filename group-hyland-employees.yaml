@@ -7,7 +7,7 @@ metadata:
     github.com/project-slug: HylandExperience/hyland-developers-portal
     backstage.io/techdocs-ref : dir:.
     # Use the plugin’s fully‑qualified annotation keys:
-    jira.atlassian.net/project-key: FCCSEU
+    jira.com/project-key: FCCSEU
 
 spec:
   type: team
