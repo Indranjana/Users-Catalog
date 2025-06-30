@@ -8,7 +8,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     jira.com/project-key: FCCSEU
     sonarqube.org/organization-key: HylandExperience
-    sonarqube.org/project-key: fcc-seu-orchestrator
+    sonarqube.org/project-key: default/fcc-seu-orchestrator
 spec:
   type: team
   profile:
