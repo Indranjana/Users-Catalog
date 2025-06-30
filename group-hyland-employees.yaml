@@ -7,8 +7,8 @@ metadata:
     github.com/project-slug: HylandExperience/hyland-developers-portal
     backstage.io/techdocs-ref: dir:.
     jira.com/project-key: FCCSEU
-    sonarqube.org/organization-key: HylandExperience
-    sonarqube.org/project-key: default/fcc-seu-orchestrator
+    sonarqube.org/project-key: cloud/fcc-seu-orchestrator
+    sonarcloud.io/organization-key: HylandExperience
 spec:
   type: team
   profile:
