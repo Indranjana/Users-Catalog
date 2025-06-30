@@ -5,10 +5,9 @@ metadata:
   description: All Hyland employees
   annotations:
     github.com/project-slug: HylandExperience/hyland-developers-portal
-    backstage.io/techdocs-ref : dir:.
-    # Use the plugin’s fully‑qualified annotation keys:
+    backstage.io/techdocs-ref: dir:.
     jira.com/project-key: FCCSEU
-
+    sonarqube.org/project-key: HylandExperience_fcc-seu-orchestrator
 spec:
   type: team
   profile:
