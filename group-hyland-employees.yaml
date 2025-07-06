@@ -4,7 +4,7 @@ metadata:
   name: hyland-employees
   description: All Hyland employees
   annotations:
-    github.com/project-slug: HylandExperience/fcc-seu-tenant-inventory
+    github.com/project-slug: HylandExperience/hyland-developers-portal
     backstage.io/techdocs-ref: dir:.
     jira.com/project-key: FCCSEU
     jira.com/board-name: FCC-SEU Content Repo Module Package Squad
