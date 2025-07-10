@@ -1,0 +1,13 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: indranjana
+  annotations:
+    github.com/user-id: "22903"
+spec:
+  profile:
+    displayName: indranjana
+    email: Indranjana.Chatterjee@hyland.com
+    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+  memberOf: [Hyland, Admin]
