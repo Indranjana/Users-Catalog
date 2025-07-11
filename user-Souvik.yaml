@@ -1,0 +1,13 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Souvik-hyland
+  annotations:
+    github.com/user-id: "214479969"
+spec:
+  profile:
+    displayName: Souvik-hyland
+    email: Souvik.Samanta@hyland.com
+    picture: 
+  memberOf: [hyland-employees]
