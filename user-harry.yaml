@@ -1,0 +1,13 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: harry
+  annotations:
+    github.com/user-id: "1256325"
+    github.com/avatar-url: "https://example.com/staff/jenny-with-party-hat.jpeg"
+spec:
+  profile:
+    displayName: Harry
+    email: harry.potter@hyland.com
+  memberOf: [Admin, Magic_group]
