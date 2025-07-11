@@ -4,9 +4,9 @@ metadata:
   name: Souvik-hyland
   annotations:
     github.com/user-id: "214479969"
+    github.com/avatar-url: "https://avatars.githubusercontent.com/u/214479969?v=4"
 spec:
   profile:
     displayName: Souvik-hyland
     email: Souvik.Samanta@hyland.com
-    picture: 
   memberOf: [hyland-employees]
