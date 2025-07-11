@@ -1,0 +1,12 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: hermion
+  annotations:
+    github.com/user-id: "12563255"
+spec:
+  profile:
+    displayName: Hermion
+    email: hermione.potter@hyland.com
+  memberOf: [Magic_group]
