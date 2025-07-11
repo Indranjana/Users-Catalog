@@ -1,4 +1,3 @@
-
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -11,3 +10,4 @@ spec:
     email: riku.chatterjee@hyland.com
     picture: 
   memberOf: [Admin]
+
