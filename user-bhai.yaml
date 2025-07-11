@@ -1,0 +1,12 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: subhadeep
+  annotations:
+    github.com/user-id: "214479969"
+spec:
+  profile:
+    displayName: Subhadeep-hyland
+    email: subhadeep.chatterjee@hyland.com
+  memberOf: [Admin]
