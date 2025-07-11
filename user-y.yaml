@@ -1,0 +1,12 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: sdff
+  annotations:
+    github.com/user-id: "2123555"
+spec:
+  profile:
+    displayName: sdfff
+    email: sdff@hyland.com
+  memberOf: [Admin]
