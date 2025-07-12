@@ -2,12 +2,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: user
+  name: hhhh
   annotations:
-    github.com/user-id: "125636"
-    github.com/avatar-url: "https://example.com/staff/jenny-with-party-hat.jpeg"
+    github.com/user-id: "1452"
 spec:
   profile:
-    displayName: user
+    displayName: hhnn
     email: Indranjana.Chatterjee@hyland.com
   memberOf: [Magic_group]
