@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: test-user-improved
+  annotations:
+    github.com/user-id: "test-github-improved"
+spec:
+  profile:
+    displayName: Test User Improved
+    email: test-improved@example.com
+  memberOf: ["hyland-employees"]
