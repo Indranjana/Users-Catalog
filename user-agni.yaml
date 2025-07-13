@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: agnikk
+  annotations:
+    github.com/user-id: "778964"
+spec:
+  profile:
+    displayName: Agnikkk
+    email: indranjanachatterjee@gmail.com
+  memberOf: ["My_group"]
