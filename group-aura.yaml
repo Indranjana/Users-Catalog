@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: aura
+  description: |
+    Aura group
+  annotations:
+    github.com/project-slug: HylandExperience/fcc-seu-orchestrator
+    backstage.io/techdocs-ref: dir:.
+    sonarqube.org/project-key: cloud/fcc-seu-orchestrator
+    sonarcloud.io/organization-key: HylandExperience
+spec:
+  type: team
+  profile:
+    displayName: Aura
+    email: admin@hyland.com
+  owner: 
+  parent: CRMP_SQUAD
+  children: []
+  members: [indranjana]
