@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: taj
+  description: |
+    the group
+  annotations:
+    github.com/project-slug: HylandExperience/hyland-developers-portal
+spec:
+  type: team
+  profile:
+    displayName: The Taj
+    email: admin@hyland.com
+    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+  owner: Taj
+  parent: CRMP_SQUAD
+  children: []
+  members: [harry, souvik, indranjana]
