@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: new_group
+  description: |
+    hello
+  annotations:
+    github.com/project-slug: HylandExperience/fcc-seu-orchestrator
+    backstage.io/techdocs-ref: dir:.
+    jira.com/project-key: FCCSEU
+    jira.com/board-name: FCC-SEU Content Repo Module Package Squad
+    confluence.com/space-key: HFCH
+    confluence.com/page-id: '2664696869'
+spec:
+  type: team
+  profile:
+    displayName: New group
+    email: new@hyland.com
+    picture: https://github.com/Indranjana/Users-catalog/blob/main/user-yes.yaml
+  owner: hyland
+  parent: CRMP_SQUAD
+  children: []
+  members: [indranjana]
