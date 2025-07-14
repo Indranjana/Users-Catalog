@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Admin
+  description: |
+    group of Admins
+  annotations:
+    github.com/project-slug: "HylandExperience/fcc-seu-orchestrator"
+    backstage.io/techdocs-ref: "dir:."
+    jira.com/project-key: "FCCSEU"
+    jira.com/board-name: "FCC-SEU Content Repo Module Package Squad"
+spec:
+  type: team
+  profile:
+    displayName: Admin
+    email: admin@hyland.com
+  owner: 
+  parent: CRMP_SQUAD
+  children: []
+  members: []
