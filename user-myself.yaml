@@ -1,0 +1,12 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: me
+  annotations:
+    github.com/user-id: "125478"
+spec:
+  profile:
+    displayName: Me
+    email: Indranjana.Chatterjee@hyland.com
+  memberOf: [abcd]
