@@ -3,6 +3,6 @@ kind: Domain
 metadata:
   name: cloud-update-service
   description: Everything about CUS
+  namespace: default
 spec:
   owner: cloud-update-service
-  subdomainOf: federated-content-cloud
