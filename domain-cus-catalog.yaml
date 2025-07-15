@@ -1,8 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: cloud-update-service
+  name: cloudupdateservice
   description: Everything about CUS
-  namespace: default
 spec:
-  owner: cloud-update-service
+  owner: team:default/platform-team
