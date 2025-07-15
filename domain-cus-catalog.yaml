@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: artists
-  description: Everything about artists
+  name: Cloud-update-service
+  description: Everything about CUS
 spec:
-  owner: artist-relations-team
-  subdomainOf: audio-domain
+  owner: cloud-update-service
+  subdomainOf: Federated-Content-Cloud
