@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: CUS-Orchestrator
+  description: Orchestrator connects Broker with the Hx system
+spec:
+  owner: CRMP_SQUAD
+  domain: cloud-update-service
