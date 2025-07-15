@@ -1,7 +1,27 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: cloudupdateservice
-  description: Everything about CUS
+  namespace: default
+  annotations:
+    backstage.io/managed-by-location: url:https://github.com/backstage/backstage/tree/master/packages/catalog-model/examples/domains/playback-domain.yaml
+    backstage.io/managed-by-origin-location: url:https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all-domains.yaml
+    backstage.io/view-url: https://github.com/backstage/backstage/tree/master/packages/catalog-model/examples/domains/playback-domain.yaml
+    backstage.io/edit-url: https://github.com/backstage/backstage/edit/master/packages/catalog-model/examples/domains/playback-domain.yaml
+    backstage.io/source-location: url:https://github.com/backstage/backstage/tree/master/packages/catalog-model/examples/domains/
+  name: playback
+  description: Everything related to audio playback
+  uid: 9cd64e2e-95c1-427c-acd2-67c475267409
+  etag: 3a22daf5f11dd67a41441a5037377e1897064933
+relations:
+  - type: hasPart
+    targetRef: system:default/audio-playback
+  - type: hasPart
+    targetRef: system:default/podcast
+  - type: ownedBy
+    targetRef: user:default/frank.tiernan
+  - type: partOf
+    targetRef: domain:default/audio
 spec:
-  owner: team:default/platform-team
+  owner: user:frank.tiernan
+  subdomainOf: audio
+  type: product-group
