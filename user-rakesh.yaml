@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: rshukla
+  annotations:
+    github.com/user-id: "167069924"
+spec:
+  profile:
+    displayName: Rakesh Shukla
+    email: rakesh.shukla@hyland.com
+  memberOf: [CRMP_SQUAD, TEAM_GATEWAY]
