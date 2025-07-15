@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: jjjj
+  description: |
+    fgggg
+  annotations:
+    backstage.io/techdocs-ref: dir:./api-docs
+spec:
+  type: asyncapi
+  lifecycle: production
+  owner: ghhhh
+  definition: |
+    fgggg
