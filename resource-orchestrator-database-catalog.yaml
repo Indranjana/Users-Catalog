@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: orchestrator-db
+  description: Store orchestrator workitems and outbox data
+  annotations:
+    backstage.io/techdocs-ref: dir:./database-docs
+spec:
+  type: database
+  owner: CRMP_SQUAD
+  system: CUS-Orchestrator
