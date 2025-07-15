@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: cloud-update-service
+  description: everything about cus
+spec:
+  owner: cloud-update-service
+  subdomainOf: federated-content-cloud
