@@ -12,6 +12,8 @@ metadata:
     sonarcloud.io/organization-key: HylandExperience
     confluence.com/space-key: HFCH
     confluence.com/page-id: '2664696869'
+    pod.kubernetes.io/names: '["fcc-seu-orchestrator-api-outbox-publisher-app", "fcc-seu-orchestrator-api","artifact-registry-api"]'
+    deployment.kubernetes.io/names: '["artifact-registry-api"]'
 spec:
   type: team
   profile:
