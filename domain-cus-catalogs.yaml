@@ -1,0 +1,41 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: e-commerce-platform
+  description: The E-Commerce Platform domain encompasses all systems, services, and capabilities
+    related to online retail operations, including product catalog management
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: myorg/ecommerce-platform
+    architecture.diagram-url: 'https://confluence.company.com/display/ARCH/ecommerce-architecture'
+    documentation.confluence.com/space-key: ECOM
+    documentation.confluence.com/page-id: 123456789
+    domain.business-unit: Digital Commerce
+    domain.cost-center: CC-DC-001
+    domain.strategic-importance: high
+    domain.maturity-level: established
+    domain.governance: federated
+    domain.data-classification: confidential
+    domain.security-level: high
+    domain.stakeholder-group: ecommerce-leadership, product-owners, engineering-leads
+    domain.roadmap-url: 'https://roadmap.company.com/ecommerce-platform'
+    domain.vision: To provide the most seamless and personalized online shopping experience
+    domain.mission: Enable scalable, secure, and customer-centric e-commerce solutions
+    domain.objectives: Increase conversion rate by 15%, Reduce cart abandonment by 25%, Improve page load times by 30%
+    domain.metrics-dashboard: https://grafana.company.com/d/ecommerce-kpis
+    domain.capability-model: https://confluence.company.com/display/ARCH/ecommerce-capability-model
+    domain.compliance: PCI-DSS, GDPR, SOX
+  tags:
+    - ecommerce
+    - platform
+    - sustainability
+  links:
+    - url: 'https://ecommerce.company.com'
+      title: 'Link'
+    - url: 'https://staging.ecommerce.company.com'
+      title: 'Link'
+    - url: 'https://admin.ecommerce.company.com'
+      title: 'Link'
+spec:
+  owner: team:ecommerce-platform-team
+  subdomainOf: audio-domain
