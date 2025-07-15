@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tajj
+  description: |
+    gggggggggg
+spec:
+  type: team
+  profile:
+    displayName: The Tajj
+    email: admin@hyland.com
+    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+  owner: Tajj
+  parent: CRMP_SQUAD
+  children: []
+  members: [harry, souvik, indranjana]
