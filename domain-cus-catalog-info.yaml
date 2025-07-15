@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: my-domain
+  description: domain info
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: myorg/ecommerce-platform
+    architecture.diagram-url: 'https://confluence.company.com/display/ARCH/ecommerce-architecture'
+  links:
+    - url: 'https://ecommerce.company.com'
+      title: 'Production Environment'
+    - url: 'https://staging.ecommerce.company.com'
+      title: 'Staging Environment'
+    - url: 'https://admin.ecommerce.company.com'
+      title: 'Admin Dashboard'
+    - url: 'https://monitoring.company.com/ecommerce'
+      title: 'Monitoring Dashboard'
+    - url: 'https://docs.company.com/ecommerce'
+      title: 'API Documentation'
+spec:
+  owner: cloud-system-update
