@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: agnik
+  annotations:
+    github.com/user-id: "1452365"
+spec:
+  profile:
+    displayName: Agnik
+    email: Indranjana.Chatterjee@hyland.com
+  memberOf: [The tajj]
