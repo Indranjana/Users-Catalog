@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: group
+  description: |
+    hhhhh
+spec:
+  type: team
+  profile:
+    displayName: The Group
+    email: group@hyland.com
+  owner: 
+  parent: CRMP_SQUAD
+  children: []
+  members: [harry]
