@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: abcd
+  description: |
+    abcd
+spec:
+  type: team
+  profile:
+    displayName: abcd
+    email: Indranjana.Chatterjee@hyland.com
+  owner: 
+  children: []
+  members: []
