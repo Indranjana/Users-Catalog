@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: abcd
+  description: |
+    abc
+spec:
+  type: team
+  profile:
+    displayName: abcd
+    email: admin@hyland.com
+  children: []
+  members: [indranjana]
