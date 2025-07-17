@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: abcd
+  description: |
+    abcd
+  annotations:
+    github.com/project-slug: HylandExperience/hyland-developers-portal
+spec:
+  type: team
+  profile:
+    displayName: abcd
+    email: admin@hyland.com
+  owner: 
+  parent: CRMP_SQUAD
+  children: [admin]
+  members: [me]
