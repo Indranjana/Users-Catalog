@@ -1,0 +1,14 @@
+site_name: Orchestrator SQS Documentation
+site_description: Documentation for the Orchestrator SQS
+
+docs_dir: docs
+site_dir: site
+
+nav:
+  - Home: index.md
+
+theme:
+  name: material
+
+plugins:
+  - techdocs-core
