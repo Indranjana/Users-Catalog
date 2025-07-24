@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: Orchestrator-event-queue-sqs
+  description: Receives messages from tenant inventory
+  annotations:
+    backstage.io/techdocs-ref: dir:./orchestrator-event-queue-sqs-doc
+spec:
+  type: sqs
+  owner: CRMP_SQUAD
+  system: CUS-Orchestrator
