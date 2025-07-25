@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: indranjana
+  description: |
+    ii
+spec:
+  type: team
+  profile:
+    displayName: indranjana
+    email: admin@hyland.com
+  owner: hyland-employees
+  parent: CRMP_SQUAD
+  children: [taj]
+  members: [guest, gbh, Indranjana]
