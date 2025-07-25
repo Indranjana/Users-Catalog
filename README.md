@@ -12,25 +12,34 @@ This section covers installing required tools, configuring your environment, and
 - **Yarn**: v1.22.x
 - **Git**: v2.30.x or higher
 - **Docker & Docker Compose**: v20.x
-- **Java 11+**: Required by some plugins
 
 ### Environment Variables
 
-Copy the `.env.example` file at the project root to create your local `.env`:
+Copy the `.env.yarn.example` file at the project root to create your local `.env`:
 
 ```sh
-cp .env.example .env
+cp .env.yarn.example .env
 ```
 
 Required variables:
 
 | Variable | Description |
 |----------|-------------|
-| `APP_CONFIG_PATH` | Path to local config overrides |
-| `DATABASE_URL` | Connection string for the development PostgreSQL DB |
-| `AUTH_SERVICE_URL` | URL of the authentication service |
-| `CONFLUENCE_BASE_URL` | Base URL for Confluence integration |
-| `JIRA_BASE_URL` | Base URL for Jira integration |
+| `POSTGRES_HOST` | PostgreSQL database host |
+| `POSTGRES_PORT` | PostgreSQL database port |
+| `POSTGRES_USER` | PostgreSQL database username |
+| `POSTGRES_PASSWORD` | PostgreSQL database password |
+| `JIRA_TOKEN` | JIRA API token for authentication |
+| `JIRA_USERNAME` | JIRA username for API authentication |
+| `JIRA_API_TOKEN` | JIRA API token (alternative to JIRA_TOKEN) |
+| `CONFLUENCE_USERNAME` | Confluence username for API authentication |
+| `CONFLUENECE_API_TOKEN` | Confluence API token for authentication |
+| `GITHUB_TOKEN` | GitHub token for Actions workflow integration |
+| `GITHUB_PUSH_TOKEN` | GitHub token for push operations in catalog automation |
+| `BACKSTAGE_API_URL` | Base URL for Backstage API |
+| `SONAR_TOKEN` | SonarQube authentication token |
+| `RANCHER_API_TOKEN` | Rancher API token for Kubernetes integration |
+| `RANCHER_BASE` | Base URL for Rancher API |
 
 ### Running the Portal Locally
 
