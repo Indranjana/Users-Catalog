@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: orchestrator-outbox
+  description: Stores and publishes state change messages to sns
+spec:
+  type: application
+  lifecycle: local
+  owner: CRMP_SQUAD
+  system: CUS-Orchestrator
+  dependsOn:
+    - resource:orchestrator-db
+  dependencyOf:
+    - resource:Update-State-Change-SNS-topic
