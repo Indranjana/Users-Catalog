@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ui
+  annotations:
+    github.com/user-id: "123456"
+spec:
+  profile:
+    displayName: ui
+    email: admin@hyland.com
+  memberOf: [new_group, guests]
